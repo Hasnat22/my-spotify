@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <title>My Spotify</title>
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left">
+        <div class="home bg-grey m5 rounded">
+          <div class="logo invert">
+            <img src="logo.svg" alt="logo" />
+          </div>
+          <ul>
+            <li><img class="invert" src="home.svg" alt="home" />Home</li>
+            <li><img class="invert" src="search.svg" alt="search" />Search</li>
+          </ul>
+        </div>
+        <div class="library m5 p-1 rounded bg-grey">
+          <div class="heading">
+            <img class="invert" src="library.svg" alt="" />
+            <h2>Your Library</h2>
+           
+          </div>
+
+          <div class="songs-list">
+            <ul>
+                
+            </ul>
+           </div>
+          <div class="footer">
+            <div>
+              <a href="https://www.spotify.com/pk-en/legal/"
+                ><span>Legal</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/pk-en/safetyandprivacy/"
+                ><span>Safety </span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/pk-en/legal/privacy-policy/"
+                ><span>Privacy Policy</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/pk-en/legal/cookies-policy/"
+                ><span>Cookies</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/pk-en/legal/privacy-policy/#s3"
+                ><span>About</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/pk-en/accessibility/"
+                ><span>Accessibility</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right rounded bg-grey">
+        <div class="header top-L-R-Rounded flex space-btw items-center">
+          <div class="nav">
+            <img class="invert" src="hamburger.svg" alt="">
+            <img src="left.svg" alt="" class="L-svg" />
+            <img src="right.svg" alt="" class="R-svg" />
+          </div>
+          <div class="btns">
+            <button  class="login-btn">Sign up</button>
+            <button class="sign-up-btn">Log in</button>
+          </div>
+        </div>
+
+        <div class="spotify-playlists">
+          <h1>Spotify Playlists</h1>
+          <div class="card-container">
+            <div class="card">
+              <div class="play-button">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="100"
+                  height="50"
+                  viewBox="0 0 100 100"
+                  style="background-color: transparent; padding: 5px">
+                  <circle cx="50" cy="50" r="50" fill="#1fd164" />
+                  <polygon points="40,30 40,70 70,50" fill="black" />
+                </svg>
+              </div>
+              <a href="card.html"></a>
+              <img src="playlist1.jpg" alt="" />
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+           
+          </div>
+
+          <div class="play-bar">
+            <div class="seekbar">
+                <div class="circle">
+
+                </div>
+            </div>
+
+            <div class="above-bar">
+                <div class="song-info"></div>
+
+           <div class="song-btns">
+            <img id="previous" src="previous.svg" alt="">
+            <img id="play" src="play.svg" alt="">
+            <img id="next" src="next.svg" alt="">
+           </div>
+
+           <div class="song-time"></div>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Java Script -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

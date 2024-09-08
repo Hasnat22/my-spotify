@@ -1,0 +1,16 @@
+# Enable directory listing for the songs folder
+Options +Indexes
+
+# Allow access to mp3 files
+<FilesMatch "\.(mp3)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Set the correct MIME type for mp3 files
+AddType audio/mpeg .mp3
+
+# Allow CORS for cross-origin requests
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/utility.css" />
+    <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
+
+    <title>My Spotify</title>
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left">
+        <div class="close">
+            <img class="invert" width="30" src="./SVG/close.svg" alt="">
+        </div>
+        <div class="home bg-grey m5 rounded">
+          <div class="logo invert">
+            <img src="./SVG/logo.svg" alt="logo" />
+          </div>
+          <ul>
+            <li><img class="invert" src="./SVG/home.svg" alt="home" />Home</li>
+            <li><img class="invert" src="./SVG/search.svg" alt="search" />Search</li>
+          </ul>
+        </div>
+        <div class="library m5 p-1 rounded bg-grey">
+          <div class="heading">
+            <img class="invert" src="./SVG/library.svg" alt="" />
+            <h2>Songs</h2>
+           
+          </div>
+
+          
+
+          <div class="songs-list">
+            <ul>
+                
+            </ul>
+           </div>
+          <div class="footer">
+            <div>
+              <a href="https://www.spotify.com/pk-en/legal/"
+                ><span>Legal</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/pk-en/safetyandprivacy/"
+                ><span>Safety </span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/pk-en/legal/privacy-policy/"
+                ><span>Privacy Policy</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/pk-en/legal/cookies-policy/"
+                ><span>Cookies</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/pk-en/legal/privacy-policy/#s3"
+                ><span>About</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/pk-en/accessibility/"
+                ><span>Accessibility</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right rounded bg-grey">
+        <div class="header top-L-R-Rounded flex space-btw items-center">
+          <div class="nav">
+            <img class="invert hamburger" src="./SVG/hamburger.svg" alt="">
+            <img src="./SVG/left.svg" alt="" class="L-svg" />
+            <img src="./SVG/right.svg" alt="" class="R-svg" />
+          </div>
+          <div class="btns">
+            <button  class="login-btn">Sign up</button>
+            <button class="sign-up-btn">Log in</button>
+          </div>
+        </div>
+
+        <div class="spotify-playlists">
+          <h1>Spotify Albums</h1>
+          <div class="card-container">
+            <div class="card">
+              <div data-folder="happy" class="play-button">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="100"
+                  height="50"
+                  viewBox="0 0 100 100"
+                  style="background-color: transparent; padding: 5px">
+                  <circle cx="50" cy="50" r="50" fill="#1fd164" />
+                  <polygon points="40,30 40,70 70,50" fill="black" />
+                </svg>
+              </div>
+              <img src="./Albums/happy.jpeg" alt="" />
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with happiness!</p>
+            </div>
+            <div class="card">
+              <div data-folder="phonk" class="play-button">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="100"
+                  height="50"
+                  viewBox="0 0 100 100"
+                  style="background-color: transparent; padding: 5px">
+                  <circle cx="50" cy="50" r="50" fill="#1fd164" />
+                  <polygon points="40,30 40,70 70,50" fill="black" />
+                </svg>
+              </div>
+              <img src="./Albums/phonk.jpeg" alt="" />
+              <h2>Phonk Vibes!</h2>
+              <p>Dark, gritty beats with retro flair for an underground vibe.!</p>
+            </div>
+            <div class="card">
+              <div data-folder="shubh" class="play-button">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="100"
+                  height="50"
+                  viewBox="0 0 100 100"
+                  style="background-color: transparent; padding: 5px">
+                  <circle cx="50" cy="50" r="50" fill="#1fd164" />
+                  <polygon points="40,30 40,70 70,50" fill="black" />
+                </svg>
+              </div>
+              <img src="./Albums/HS.jpeg" alt="" />
+              <h2>Honey Singh!</h2>
+              <p>Party anthems and catchy beats to keep you grooving!</p>
+            </div>
+            <div class="card">
+              <div data-folder="honeySingh" class="play-button">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="100"
+                  height="50"
+                  viewBox="0 0 100 100"
+                  style="background-color: transparent; padding: 5px">
+                  <circle cx="50" cy="50" r="50" fill="#1fd164" />
+                  <polygon points="40,30 40,70 70,50" fill="black" />
+                </svg>
+              </div>
+              <img src="./Albums/shubh.jpeg" alt="" />
+              <h2>Shubh!</h2>
+              <p>Catchy beats and vibrant rhythms by Shubh!</p>
+            </div>
+            <div class="card">
+              <div data-folder="sad" class="play-button">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="100"
+                  height="50"
+                  viewBox="0 0 100 100"
+                  style="background-color: transparent; padding: 5px">
+                  <circle cx="50" cy="50" r="50" fill="#1fd164" />
+                  <polygon points="40,30 40,70 70,50" fill="black" />
+                </svg>
+              </div>
+              <img src="./Albums/sad.jpeg" alt="" />
+              <h2>Sad Hits!</h2>
+              <p>Melancholic tunes to embrace your emotions !</p>
+            </div>
+            <div class="card">
+              <div data-folder="atifAslam" class="play-button">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="100"
+                  height="50"
+                  viewBox="0 0 100 100"
+                  style="background-color: transparent; padding: 5px">
+                  <circle cx="50" cy="50" r="50" fill="#1fd164" />
+                  <polygon points="40,30 40,70 70,50" fill="black" />
+                </svg>
+              </div>
+              <img src="./Albums/Atif.jpeg" alt="" />
+              <h2>Atif Aslam!</h2>
+              <p>capturing the essence of love and heartache !</p>
+            </div>
+            
+        
+           
+          </div>
+
+          <div class="play-bar">
+            <div class="seekbar">
+                <div class="circle">
+
+                </div>
+            </div>
+
+            <div class="above-bar">
+                <div class="song-info"></div>
+
+           <div class="song-btns">
+            <img id="previous" src="./SVG/previous.svg" alt="">
+            <img id="play" src="./SVG/play.svg" alt="">
+            <img id="next" src="./SVG/next.svg" alt="">
+           </div>
+
+          
+           <div class="song-time"></div>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Java Script -->
+
+    <script src="./Js/script.js"></script>
+  </body>
+</html>

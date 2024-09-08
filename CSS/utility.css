@@ -1,0 +1,51 @@
+.border{
+    border: 2px solid rgb(208, 171, 171);
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.space-btw{
+    justify-content: space-between;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.bg-grey{
+    background-color: #121212;
+    color: white;
+}
+
+.m5{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.top-L-R-Rounded{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
